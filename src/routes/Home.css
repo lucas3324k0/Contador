@@ -1,0 +1,48 @@
+.home h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contador-form {
+
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contador-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contador-form span {
+    font-weight: bold;
+}
+
+.contador-form input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+.contador-form input[type="color"] {
+    padding: 2px;
+}
+
+.contador-form input[type="submit"] {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.contador-form input[type="submit"]:hover {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
