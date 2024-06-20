@@ -1,8 +1,13 @@
-# React + Vite
+# Contador de Contagem Regressiva
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de estudos desenvolvido com o auxílio do professor Matheus Battisti da Udemy. O objetivo deste projeto é criar um contador de contagem regressiva utilizando ReactJS e Vite.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Contagem Regressiva:** Permite inserir uma data específica e visualizar a contagem regressiva até essa data a partir do dia atual.
+
+## Tecnologias Utilizadas
+
+- ReactJS
+- Vite (Bundler para desenvolvimento rápido)
+
